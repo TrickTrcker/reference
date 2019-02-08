@@ -1,0 +1,94 @@
+IntelliModule Live server details:-
+
+MSTSC(Remote control):
+	New:
+	
+		Computer:209.210.25.65
+		UserName: Macronimous$1
+		Password: Mac$Dev1#
+
+	DB Cred:
+	
+		servername = WIN-GFT9PLMCUB1\SQLEXPRESS
+		User ID = ProcessSharkusr
+		password = ProcessShark456
+		
+-----------------------------------------------------------------------------------------------
+
+
+
+
+SQLserver version is 2017
+Server Name : WATCHWOLFSERVER\SQL2017STD
+User Name : 18112601_intellimodz_usr
+Password : D2*K&!*732
+Db1 : 18112601_intellimodz_v2
+Db2 : 18112602_processshark_db 
+
+ng build --prod --build-optimizer=false
+
+
+https://1drv.ms/x/s%21AryQG73V1LXUs0s89o22grRqHbK8
+https://www.dropbox.com/sh/ddgxljhh05sqmqj/AADhK6MQVlp9bOOhHs7KIksEa?dl=0
+
+
+SELECT * FROM sys.objects WHERE type IN ('FN', 'IF', 'TF')
+
+altered tables
+TblConnection
+tblemployee
+
+18095
+18097
+18100 partial
+18101 cant reproduce
+
+fixed for testing
+----------
+18098
+18096
+
+
+ declare @userid table( UserId nvarchar(max))
+
+ insert into @userid
+ select UserId from TblEmployee
+
+ insert into @userid
+ select UserId from TblCompany
+
+
+select * from   AspNetUsers where id    in (select UserId from @userid)
+
+
+SP_Bookmark
+consumer no: 608307 552060 
+05335
+1650
+900
+------
+3278
+-----------
+sortable 
+https://jqueryui.com/sortable/#portlets
+https://smnbbrv.github.io/angular-sortablejs-demo/sortable-array
+https://www.telerik.com/kendo-angular-ui/components/sortable/templates/
+
+
+
+ZoomLevel_S
+ZoomLevel_M
+ZoomLevel_L
+ZoomLevel_XL
+ZoomLevel_XXL
+
+http://support.aescorp.in/tickets.php?id=12593
+
+
+Microsft .NET core SDK 2.1.301
+Microsft .NET core Runtime - 2.1.1
+Microsft .NET core 2.1.1 - Windows Server Hosting
+
+
+
+
